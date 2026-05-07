@@ -1,54 +1,17 @@
-* {
-    margin: 0;
+@font-face {
+    font-family: "spacemono";
+    src: url("https://whiterain.neocities.org/fonts/SpaceMono-Regular.ttf") format("truetype");
 }
 
 body {
+    font-family: 'spacemono', sans-serif;
     background-color: black;
     color: white;
 
     margin: 0 16px 16px 16px;
-
-    font-size: clamp(16px, 4vmin, 32px);;
     line-height: 1;
+    width: 75%;
     
     overflow-y: scroll;
     overflow-x: hidden;
-
-    a {
-        color: white;
-        &:hover {
-            color: color-mix(in oklab, white 100%, black 20%)
-        }
-    }
-
-    img {
-        object-fit: contain;
-        max-width: 40vmax;
-    }
-
-    h2 {
-        margin: 16px 0;
-    } p {
-        margin: 8px 0;
-    }
-
-    #view-frame {
-        min-height: 45vh;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 16px;
-
-        h5 {
-            white-space: nowrap;
-            user-select: none;
-            line-height: 1;
-            opacity: .25;
-        }
-
-        iframe {
-            flex: 1;
-            width: 100%;
-            min-height: 100%;
-        }
-    }
 }
