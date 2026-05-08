@@ -1,6 +1,6 @@
 @font-face {
     font-family: "smalle";
-    src: url("https://whiterain.neocities.org/fonts/smalle.ttf") format("truetype");
+    src: url('./fonts/smalle.ttf') format('truetype');
 }
 
 body {
