@@ -1,6 +1,6 @@
 @font-face {
     font-family: "smalle";
-    src: url('../fonts/smalle.ttf') format('truetype');
+    src: url('random/fonts/smalle.ttf') format('truetype');
 }
 
 body {
